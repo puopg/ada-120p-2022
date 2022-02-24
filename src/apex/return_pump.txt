@@ -1,0 +1,2 @@
+If FeedA 005 Then 1
+If Swx6_2 CLOSED Then 0
