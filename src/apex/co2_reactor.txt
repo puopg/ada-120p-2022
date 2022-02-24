@@ -1,0 +1,4 @@
+Fallback OFF
+Set OFF
+If Time 02:00 to 04:00 Then ON // from 2AM to 4AM, turn the reactor on for extra oxygenation.
+If Time 10:30 to 20:00 Then ON // from 10:30AM to 8PM, turn the reactor on.
