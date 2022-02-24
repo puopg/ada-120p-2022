@@ -1,0 +1,4 @@
+Set OFF
+If Error Cor_3_1 Then ON
+If Swx6_2 CLOSED Then ON
+If Swx6_3 CLOSED Then ON
