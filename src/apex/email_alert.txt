@@ -1,4 +1,4 @@
 Set OFF
-If Error Cor_3_1 Then ON
-If Swx6_2 CLOSED Then ON
-If Swx6_3 CLOSED Then ON
+If Error Cor_3_1 Then ON  // Notify when COR15 errors
+If Swx6_2 CLOSED Then ON  // Notify when tank high level water sensor triggers
+If Swx6_3 CLOSED Then ON  // Notify when water on floor sensor triggers
