@@ -1,0 +1,3 @@
+Fallback OFF
+If Tmp < 74.0 Then ON
+If Tmp > 75.0 Then OFF
