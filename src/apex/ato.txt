@@ -1,0 +1,3 @@
+Fallback ON
+Set ON
+If Output Cor_3_1 OFF Then OFF // If the return pump is off, turn the ATO off as well.
