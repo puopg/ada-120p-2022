@@ -1,4 +1,5 @@
 Fallback ON
 Set ON
-If Swx6_2 CLOSED Then OFF
-Defer 000:30 Then ON       // Hysteresis, so that the device doenst toggle when the optical sensor fluctuates.
+If Swx6_2 CLOSED Then OFF   // If the tank high level sensor trips, turn the rain off.
+                            // This helps prevent additional water being pumped from the sump into the display.
+Defer 000:30 Then ON        // Hysteresis, so that the device doenst toggle when the optical sensor fluctuates.
