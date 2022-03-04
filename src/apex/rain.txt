@@ -1,0 +1,4 @@
+Fallback ON
+Set ON
+If Swx6_2 CLOSED Then OFF
+Defer 000:30 Then ON       // Hysteresis, so that the device doenst toggle when the optical sensor fluctuates.
