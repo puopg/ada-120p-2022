@@ -1,3 +1,4 @@
 Fallback ON
 Set ON
 If Output Cor_3_1 OFF Then OFF // If the return pump is off, turn the ATO off as well.
+Defer 001:00 Then ON           // Hysteresis, so that the ATO doesn't toggle on and off quickly.
