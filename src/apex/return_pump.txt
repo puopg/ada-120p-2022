@@ -1,4 +1,5 @@
 Fallback ON               // Not in the wizard, but is in the actual code in the non fusion interface.
-If FeedA 000 Then 1       // If feed mode is on, turn the pump down to the minimum (5% of PUMP_MAX). When feed mode ends, delay the switch by 0s (so none lol) before turning it back to max.
+If FeedA 000 Then 1       // If feed mode is on, turn the pump down to the minimum (5% of PUMP_MAX). When feed mode ends,
+                          // delay the switch by 0s (so none lol) before turning it back to max.
 If Swx6_1 OPEN Then OFF   // If the sump water level dips too low, turn the pump off to prevent it from running dry
 If Swx6_2 CLOSED Then OFF // If the tank high level sensor trips, turn the return pump off.
