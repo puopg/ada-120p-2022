@@ -1,4 +1,11 @@
 ### 3/10/2022
+Update @ 10:42 AM
+- Changed `return_pump` code to NOT use `Sump_Low_Det` to turn off since if the pump shuts off, water continues to
+drain from the overflow into the sump, which makes the water level rise, and that inverts the switch. This results
+in the detection toggling on and off.
+   - Instead, `return_pump` is will always be on, and a notification is all that will be sent to me when the sump level gets low.
+
+Original
 - Added: Virtual Outlet `Sump_Low_Det` to help in better detecting when return level in water gets too low.
 - Changed `email_alert` code to use `Sump_Low_Det` when detecting sump water level low to send a notification.
 - Changed `return_pump` code to use `Sump_Low_Det` before triggering `OFF`.
