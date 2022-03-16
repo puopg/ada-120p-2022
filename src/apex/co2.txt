@@ -1,5 +1,5 @@
 Fallback OFF
 Set OFF
-If Time 11:00 to 19:00 Then ON // From 11AM to 7PM, turn on the CO2.
+If Time 10:00 to 19:00 Then ON // From 10AM to 7PM, turn on the CO2.
 If Tmp > 82.0 Then OFF         // If the temp goes beyond 82, turn CO2 off to maximize dissolved O2.
 Defer 001:00 Then ON           // Hysteresis, so that the solenoid doesn't toggle on and off when temp fluctuates.
