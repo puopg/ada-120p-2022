@@ -1,0 +1,4 @@
+Fallback OFF
+Set OFF
+If Time 02:00 to 04:00 Then ON
+If Time 09:30 to 20:00 Then ON

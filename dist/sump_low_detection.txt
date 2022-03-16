@@ -1,0 +1,4 @@
+Fallback OFF
+Set OFF
+If Swx6_1 OPEN Then ON
+Defer 01:00 Then ON

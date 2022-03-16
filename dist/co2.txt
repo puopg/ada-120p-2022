@@ -1,0 +1,5 @@
+Fallback OFF
+Set OFF
+If Time 10:00 to 19:00 Then ON
+If Tmp > 82.0 Then OFF
+Defer 01:00 Then ON

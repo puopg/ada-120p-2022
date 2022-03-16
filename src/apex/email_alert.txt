@@ -1,5 +1,0 @@
-Set OFF
-If Error Cor_3_1 Then ON            // Notify when COR15 errors
-If Outlet Sump_Low_Det ON Then ON   // Notify when sump water level in return pump section drops too low
-If Swx6_2 CLOSED Then ON            // Notify when tank high level water sensor triggers
-If Swx6_3 CLOSED Then ON            // Notify when water on floor sensor triggers

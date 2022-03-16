@@ -1,0 +1,16 @@
+{
+  "name": "ada-120p-2022",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:puopg/ada-120p-2022.git",
+  "author": "puopg",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^10.0.1",
+    "glob": "^7.2.0",
+    "handlebars": "^4.7.7"
+  },
+  "scripts": {
+    "build": "node scripts/template_apex_code.js"
+  }
+}

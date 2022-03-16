@@ -1,0 +1,3 @@
+Fallback ON
+If FeedA 000 Then 1
+If Swx6_2 CLOSED Then OFF

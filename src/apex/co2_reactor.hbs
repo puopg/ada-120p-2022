@@ -1,0 +1,6 @@
+Fallback OFF
+Set OFF
+{{! From 2AM to 4AM, turn the reactor on for extra oxygenation. }}
+If Time {{apexVariables.REACTOR_EARLY_ON_TIME}} to {{apexVariables.REACTOR_EARLY_OFF_TIME}} Then ON
+{{! From 9:30AM to 8PM, turn the reactor on. }}
+If Time {{apexVariables.REACTOR_ON_TIME}} to {{apexVariables.REACTOR_OFF_TIME}} Then ON

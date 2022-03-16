@@ -1,0 +1,7 @@
+Fallback ON
+Set ON
+{{! If the tank high level sensor trips, turn the rain off. }}
+{{! This helps prevent additional water being pumped from the sump into the display. }}
+If {{apexModules.tank_water_high_optical_sensor.moduleName}} CLOSED Then OFF
+{{! Hysteresis, so that the device doenst toggle when the optical sensor fluctuates. }}
+Defer {{apexVariables.RAIN_DELAY_ON_TIME}} Then ON

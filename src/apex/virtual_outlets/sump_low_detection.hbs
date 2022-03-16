@@ -1,0 +1,9 @@
+{{! This virtual outlet is designed to detect when the sump water level has been too low for an extended }}
+{{! period of time. This is to help prevent turning things on and off with small fluctuations }}
+{{! in the sensor when at the threshold limits of the sensor. }}
+Fallback OFF
+Set OFF
+{{! If the sump water low sensor triggers, turn this virtual outlet on. }}
+If {{apexModules.sump_water_low_optical_sensor.moduleName}} OPEN Then ON
+{{! Wait for the outlet to be ON for 1 minute before actually triggering it on. }}
+Defer {{apexVariables.ONE_MINUTE}} Then ON
