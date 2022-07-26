@@ -1,4 +1,9 @@
 module.exports = {
+    // Network
+    NETWORK_IP: "192.168.2.169",
+    NETWORK_USER: "admin",
+    NETWORK_PASSWORD: "1234",
+    
     // CO2
     CO2_START_TIME: "10:00",
     CO2_END_TIME: "19:00",
