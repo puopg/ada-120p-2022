@@ -4,15 +4,15 @@ module.exports = {
         description: "Return Pump - COR15",
     },
     "sump_water_low_optical_sensor": {
-        moduleName: "Swx6_1",
+        moduleName: "Swx7_1",
         description: "Optical Sensor - Sump Return Pump Low Water Warning",
     },
     "tank_water_high_optical_sensor": {
-        moduleName: "Swx6_2",
+        moduleName: "Swx7_2",
         description: "Optical Sensor - Tank High Water Level",
     },
     "water_on_ground_behind_tank_sensor": {
-        moduleName: "Swx6_3",
+        moduleName: "Swx7_3",
         description: "Solid State Leak Detection Probe - Behind Tank",
     },
     "sump_low_detector": {
