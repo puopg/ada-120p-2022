@@ -7,7 +7,7 @@ module.exports = {
     // CO2
     CO2_START_TIME: "10:00",
     CO2_END_TIME: "19:00",
-    CO2_MAX_TEMP_OFF: "82.0",
+    CO2_MAX_TEMP_OFF: "84.0",
     CO2_DELAY_ON_TIME: "01:00",
 
     // CO2 Reactor
