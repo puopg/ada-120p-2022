@@ -1,5 +1,6 @@
 Set OFF
 If Error Cor_3_1 Then ON
-If Outlet Sump_Low_Det ON Then ON
+If Outlet Sump_Low_Det = ON Then ON
 If Swx7_2 CLOSED Then ON
 If Swx7_3 CLOSED Then ON
+If Swx7_4 CLOSED Then ON

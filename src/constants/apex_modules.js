@@ -15,6 +15,10 @@ module.exports = {
         moduleName: "Swx7_3",
         description: "Solid State Leak Detection Probe - Behind Tank",
     },
+    "water_on_shelf_near_skimmer_sensor": {
+        moduleName: "Swx7_4",
+        description: "Solid State Leak Detection Probe - Inside Tank, near skimmer",
+    },
     "sump_low_detector": {
         moduleName: "Sump_Low_Det",
         description: "Virtual Outlet - Detects when sump water level in return chamber gets low, accounting for sensor toggling at thresholds.",

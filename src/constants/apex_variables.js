@@ -15,6 +15,7 @@ module.exports = {
     REACTOR_EARLY_OFF_TIME: "04:00",
     REACTOR_ON_TIME: "08:30",
     REACTOR_OFF_TIME: "20:00",
+    REACTOR_DELAY_ON_TIME: "01:00",
 
     // ATO
     ATO_DELAY_ON_TIME: "01:00",
