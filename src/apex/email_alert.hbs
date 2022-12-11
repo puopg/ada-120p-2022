@@ -9,3 +9,5 @@ If {{apexModules.tank_water_high_optical_sensor.moduleName}} CLOSED Then ON
 If {{apexModules.water_on_ground_behind_tank_sensor.moduleName}} CLOSED Then ON
 {{! Notify when water on shelf near skimmer sensor triggers }}
 If {{apexModules.water_on_shelf_near_skimmer_sensor.moduleName}} CLOSED Then ON
+{{! Notify when tank temperature exceeds a threshold }}
+If Tmp > {{apexVariables.HEATER_MAX_TEMP}} Then ON

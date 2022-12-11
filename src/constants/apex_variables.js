@@ -21,8 +21,9 @@ module.exports = {
     ATO_DELAY_ON_TIME: "01:00",
 
     // Heater
-    HEATER_ON_TEMP: "74.0",
+    HEATER_ON_TEMP: "74.5",
     HEATER_OFF_TEMP: "75.0",
+    HEATER_MAX_TEMP: "79.5",
 
     // Rain
     RAIN_DELAY_ON_TIME: "00:30",
