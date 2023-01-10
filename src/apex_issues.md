@@ -18,3 +18,9 @@ Original
    - Got a new sensor, same issue.
    - Found out FMM port was configured for "Water on ground", and not "Optical Sensor".
    - Testing port after reconfiguring FMM
+
+### 1/09/2023
+- Super windy and raining cause a power outage. When the power came back, the FMM was detected twice in apex
+- Apex was disconnected from fusion, and had its date reset to 2008.
+- Had to trigger a manual restart, then it reconnected to fusion and network and synced calendar
+- Then deleted module and swapped to new named module.
