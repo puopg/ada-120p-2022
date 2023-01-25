@@ -2,7 +2,7 @@ Set OFF
 {{! Notify when COR15 errors }}
 If Error {{apexModules.return_pump.moduleName}} Then ON
 {{! Notify when sump water level in return pump section drops too low }}
-If Outlet {{apexModules.sump_low_detector.moduleName}} = ON Then ON
+If Output {{apexModules.sump_low_detector.moduleName}} = ON Then ON
 {{! Notify when tank high level water sensor triggers }}
 If {{apexModules.tank_water_high_optical_sensor.moduleName}} CLOSED Then ON
 {{! Notify when water on floor sensor triggers }}

@@ -24,3 +24,8 @@ Original
 - Apex was disconnected from fusion, and had its date reset to 2008.
 - Had to trigger a manual restart, then it reconnected to fusion and network and synced calendar
 - Then deleted module and swapped to new named module.
+
+### 1/24/2023
+- Replaced APEX Classic internal battery for clock, tested briefly and it seems to hold time again after outages
+- Apparently at the same time, the FMM module also reset? Had to swap back to Swx_7, wtfffff
+- I wonder if ill have to move it back again later?

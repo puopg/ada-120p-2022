@@ -1,4 +1,4 @@
 Fallback OFF
 Set ON
-If Swx6_4 CLOSED Then OFF
+If Swx7_4 CLOSED Then OFF
 Defer 01:00 Then ON
