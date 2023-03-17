@@ -29,3 +29,8 @@ Original
 - Replaced APEX Classic internal battery for clock, tested briefly and it seems to hold time again after outages
 - Apparently at the same time, the FMM module also reset? Had to swap back to Swx_7, wtfffff
 - I wonder if ill have to move it back again later?
+
+### 3/16/2023
+- House lost power for 2-3 days after a big storm again.
+- FMM jumped addresses from 7 back to 6 again.
+- Had to reprogram all things with the new switch name and delete FMM_7 again.
