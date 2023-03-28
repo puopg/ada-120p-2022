@@ -30,6 +30,7 @@ module.exports = {
 
     // Return Pump
     RETURN_PUMP_FEED_MODE_POWER_PERCENT: "1",
+    RETURN_PUMP_DEFAULT_POWER_PERCENT: "25",
 
     // MISC
     ONE_MINUTE: "01:00",
