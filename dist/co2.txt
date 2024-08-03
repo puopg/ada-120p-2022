@@ -1,5 +1,5 @@
 Fallback OFF
 Set OFF
-If Time 09:00 to 19:00 Then ON
+If Time 09:00 to 18:00 Then ON
 If Tmp > 86.0 Then OFF
 Defer 01:00 Then ON
