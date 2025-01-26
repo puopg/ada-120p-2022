@@ -1,6 +1,13 @@
 Fallback OFF
 Set ON
-{{! If water gets on the shelf, assume it is due to skimmer overflow, shut it off }}
-If {{apexModules.water_on_shelf_near_skimmer_sensor.moduleName}} CLOSED Then OFF
+{{! From 7PM to 7AM, turn on the reactor. }}
+{{! ===================================== }}
+If Time {{apexVariables.REACTOR_ON_TIME}} to {{apexVariables.REACTOR_OFF_TIME}} Then ON
+{{! If the temp goes beyond 82, turn reactor ON to maximize dissolved O2. }}
+{{! ===================================== }}
+If Tmp > {{apexVariables.CO2_MAX_TEMP_OFF}} Then ON
+{{! (TEMP DISABLED)If water gets on the shelf, assume it is due to skimmer overflow, shut it off }}
+{{! ===================================== }}
 {{! Hysteresis, so that the Skimmer doesn't toggle on too quickly. }}
-Defer {{apexVariables.REACTOR_DELAY_ON_TIME}} Then ON
+{{! ===================================== }}
+Defer {{apexVariables.DEFAULT_DELAY_ON_TIME}} Then ON

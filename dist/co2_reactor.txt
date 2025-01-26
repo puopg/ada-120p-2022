@@ -1,4 +1,5 @@
 Fallback OFF
 Set ON
-If Swx6_4 CLOSED Then OFF
+If Time 18:00 to 07:00 Then ON
+If Tmp > 86.0 Then ON
 Defer 01:00 Then ON
